@@ -6,7 +6,7 @@
 
 <h2>Project Screenshots:</h2>
 <p>
-<img src="https://www.i-pic.info/i/AmBa540650.png" alt="project-screenshot" width="auto" height="auto">
+<img src="[https://www.i-pic.info/i/AmBa540650.png](https://img.shields.io/badge/AXELATHON-AXELAR_ONLINE_HACKATHON_2023-orange)" alt="project-screenshot" width="auto" height="auto">
 </p>
 <p><img src="https://www.i-pic.info/i/HecL540657.png" alt="project-screenshot" width="auto" height="auto">
 </p>

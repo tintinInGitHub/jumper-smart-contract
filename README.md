@@ -5,11 +5,11 @@
 <p id="description">Jumper X Axelar is NFT minting cross-chain bridge for NFTs activity-point-based rewards competitive leaderboard and decentralized governance that aim to build A versatile ecosystem that empowers creators collectors and participants fostering cross-chain collaboration and community-driven growth .</p>
 
 <h2>Project Screenshots:</h2>
-
+<p>
 <img src="https://www.i-pic.info/i/AmBa540650.png" alt="project-screenshot" width="auto" height="auto">
-
-<img src="https://www.i-pic.info/i/HecL540657.png" alt="project-screenshot" width="auto" height="auto">
-
+</p>
+<p><img src="https://www.i-pic.info/i/HecL540657.png" alt="project-screenshot" width="auto" height="auto">
+</p>
   
   
 <h2>🧐 Features</h2>

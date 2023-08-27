@@ -1,6 +1,6 @@
 <h1 align="center" id="title" >Jumper X Axelar</h1>
 
-<img aligh="center" height="auto" width="auto" src="https://socialify.git.ci/tintinInGitHub/jumper-smart-contract/image?description=1&descriptionEditable=Jumper%20X%20Axelar%20is%20NFT%20cross-chain%20bridge%20for%20NFTs%20activity-point-based%20rewards%2Ccompetitive%20leaderboard%20and%20decentralized%20governance.&name=1&pattern=Brick%20Wall&theme=Light" alt="jumper-smart-contract" width="640" height="320" />
+<h1 align="center" ><img align="center"  src="https://socialify.git.ci/tintinInGitHub/jumper-smart-contract/image?description=1&descriptionEditable=Jumper%20X%20Axelar%20is%20NFT%20cross-chain%20bridge%20for%20NFTs%20activity-point-based%20rewards%2Ccompetitive%20leaderboard%20and%20decentralized%20governance.&name=1&pattern=Brick%20Wall&theme=Light" alt="jumper-smart-contract" width="640" height="320" /></h1>
 
 <p id="description">
 <iframe width="560" height="315"
@@ -13,8 +13,8 @@ allowfullscreen></iframe></p>
 
 <h2>Project Screenshots:</h2>
 <p>
-![ScreenShot1](https://github.com/tintinInGitHub/jumper-smart-contract/assets/72849666/2958c0a0-bd87-4649-8348-8a1593f22d79)
-![ScreenShot2](https://github.com/tintinInGitHub/jumper-smart-contract/assets/72849666/32acdd6f-c0bd-4372-bce5-f29127d748bd)
+<h1 align="center" ><img align="center"  src="https://github.com/tintinInGitHub/jumper-smart-contract/assets/72849666/2958c0a0-bd87-4649-8348-8a1593f22d79" alt="jumper-smart-contract" width="640" height="320" /></h1>
+  <h1 align="center" ><img align="center"  src="https://github.com/tintinInGitHub/jumper-smart-contract/assets/72849666/32acdd6f-c0bd-4372-bce5-f29127d748bd" alt="jumper-smart-contract" width="640" height="320" /></h1>
 </p>
   
   

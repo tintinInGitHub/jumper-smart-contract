@@ -3,7 +3,7 @@
 <p align="center"><img src="https://socialify.git.ci/tintinInGitHub/jumper-smart-contract/image?description=1&amp;descriptionEditable=Jumper%20X%20Axelar%20is%20NFT%20minting%2C%20cross-chain%20bridge%20for%20NFTs%2C%20activity-point-based%20rewards%2C%20competitive%20leaderboard%20and%20decentralized%20governance.&amp;font=KoHo&amp;logo=https%3A%2F%2Fwww.i-pic.info%2Fi%2FEYhy540625.png&amp;name=1&amp;pattern=Overlapping%20Hexagons&amp;theme=Light" alt="project-image"></p>
 <p id="description">
 <iframe width="560" height="315"
-src="[https://www.youtube.com/embed/MUQfKFzIOeU](https://youtu.be/f3C6_0Ekkpg)" 
+src="https://www.youtube.com/embed/MUQfKFzIOeU" 
 frameborder="0" 
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe></p>

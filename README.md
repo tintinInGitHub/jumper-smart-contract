@@ -7,9 +7,10 @@
 <h2>Project Screenshots:</h2>
 <p>
 <!-- <img src="[https://www.i-pic.info/i/AmBa540650.png](https://img.shields.io/badge/AXELATHON-AXELAR_ONLINE_HACKATHON_2023-orange)" alt="project-screenshot" width="auto" height="auto"> -->
-![Screenshot1](https://github.com/tintinInGitHub/jumper-smart-contract/assets/72849666/2340aaa7-5d48-44f4-a177-1725ca919981)
+![ScreenShot1](https://github.com/tintinInGitHub/jumper-smart-contract/assets/72849666/2958c0a0-bd87-4649-8348-8a1593f22d79)
 </p>
-<p><img src="https://www.i-pic.info/i/HecL540657.png" alt="project-screenshot" width="auto" height="auto">
+<!-- <p><img src="https://www.i-pic.info/i/HecL540657.png" alt="project-screenshot" width="auto" height="auto"> -->
+![ScreenShot2](https://github.com/tintinInGitHub/jumper-smart-contract/assets/72849666/32acdd6f-c0bd-4372-bce5-f29127d748bd)
 </p>
   
   

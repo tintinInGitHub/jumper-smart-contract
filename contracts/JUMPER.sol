@@ -200,6 +200,11 @@ contract JUMPER is ERC721, ERC721Burnable, Ownable, AxelarExecutable {
      
     }
 
+    function setNewStatusNFT(uint256 tokenId,NFTStatus memory statusNft) internal {
+      _status[tokenId].level = statusNft.level;
+      _status[tokenId].point = statusNft.point;
+      _status[tokenId].born = statusNft.born;
+      _status[tokenId].codePic = statusNft.codePic;
 
       if(stringCompare(initChainName,"Avalanche")){
         statusNft.countBridge.avax += 1;

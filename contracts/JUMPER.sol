@@ -200,6 +200,35 @@ contract JUMPER is ERC721, ERC721Burnable, Ownable, AxelarExecutable {
      
     }
 
+
+    function ownerOf(uint256 tokenId) public view override returns (address) {
+        address owner = _ownerOf(tokenId);
+        return owner;
+    }
+
+
+    function walletOfOwner(address _user) external view returns (uint256[] memory)
+    {
+      uint256 ownerTokenCount = balanceOf(_user);
+      uint256[] memory ownedTokenIds = new uint256[](ownerTokenCount);
+      uint256 currentTokenId = 1;
+      uint256 ownedTokenIndex = 0;
+
+      while (ownedTokenIndex < ownerTokenCount && currentTokenId <= supply.current()) {
+        address currentTokenOwner = ownerOf(currentTokenId);
+
+        if (currentTokenOwner == _user) {
+          ownedTokenIds[ownedTokenIndex] = currentTokenId;
+
+          ownedTokenIndex++;
+        }
+
+        currentTokenId++;
+      }
+
+      return ownedTokenIds;
+    }
+
     function setNewStatusNFT(uint256 tokenId,NFTStatus memory statusNft) internal {
       _status[tokenId].level = statusNft.level;
       _status[tokenId].point = statusNft.point;

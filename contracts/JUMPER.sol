@@ -57,8 +57,8 @@ contract JUMPER is ERC721, ERC721Burnable, Ownable, AxelarExecutable {
         initChainName = _initChainName;
     }
 
-    function nftStatus(uint256 _tokenId) external view returns (uint256 level,uint256 point,uint256 born,uint256 avax, uint256 fantom,uint256 matic) {
-      return (_status[_tokenId].level,_status[_tokenId].point,_status[_tokenId].born,_status[_tokenId].countBridge.avax,_status[_tokenId].countBridge.fantom,_status[_tokenId].countBridge.matic);
+    function nftStatus(uint256 _tokenId) external view returns (uint256 level,uint256 point,uint256 born,uint256 codePic ,uint256 avax, uint256 fantom,uint256 matic) {
+      return (_status[_tokenId].level,_status[_tokenId].point,_status[_tokenId].born,_status[_tokenId].codePic,_status[_tokenId].countBridge.avax,_status[_tokenId].countBridge.fantom,_status[_tokenId].countBridge.matic);
     }
 
     function stringCompare(string memory s1, string memory s2) private  pure returns(bool) {
@@ -70,15 +70,18 @@ contract JUMPER is ERC721, ERC721Burnable, Ownable, AxelarExecutable {
     }
 
     
-    function safeMint(address to) public onlyOwner {
+    function safeMint(address to) public {
        supply.increment();
       _safeMint(to,  supply.current());
       if(stringCompare(initChainName,"Avalanche")){
         _status[supply.current()].born = 1;
+        _status[supply.current()].codePic = 1;
       }else if(stringCompare(initChainName,"Fantom")){
         _status[supply.current()].born = 2;
+        _status[supply.current()].codePic = 2;
       }else if(stringCompare(initChainName,"Polygon")){
         _status[supply.current()].born = 3;
+        _status[supply.current()].codePic = 3;
       }
     }
 
@@ -197,10 +200,6 @@ contract JUMPER is ERC721, ERC721Burnable, Ownable, AxelarExecutable {
      
     }
 
-    function setNewStatusNFT(uint256 tokenId,NFTStatus memory statusNft) internal {
-      _status[tokenId].level = statusNft.level;
-      _status[tokenId].point = statusNft.point;
-      _status[tokenId].born = statusNft.born;
 
       if(stringCompare(initChainName,"Avalanche")){
         statusNft.countBridge.avax += 1;

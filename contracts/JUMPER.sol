@@ -252,19 +252,25 @@ contract JUMPER is ERC721, ERC721Burnable, Ownable, AxelarExecutable {
       if(levelEvol ==1){
         if(_status[tokenId].born == 1 ){
           findMaxIndex(tokenId) == 0 ?  _status[tokenId].codePic = 1100 : _status[tokenId].codePic = 1011;
+           _status[tokenId].level +=1 ;
         } else if(_status[tokenId].born == 2 ){
           findMaxIndex(tokenId) == 1 ? _status[tokenId].codePic = 1010 : _status[tokenId].codePic = 1101;
+          _status[tokenId].level +=1 ;
         } else if(_status[tokenId].born == 3 ){
           findMaxIndex(tokenId) == 2 ? _status[tokenId].codePic = 1001 : _status[tokenId].codePic = 1110;
+          _status[tokenId].level +=1 ;
         }
       }
       else if(levelEvol==2){
          if(_status[tokenId].born == 1 ){
           findMaxIndex(tokenId) == 0 ?  _status[tokenId].codePic = 2100 : _status[tokenId].codePic = 2011;
+          _status[tokenId].level +=1 ;
         } else if(_status[tokenId].born == 2 ){
           findMaxIndex(tokenId) == 1 ? _status[tokenId].codePic = 2010 : _status[tokenId].codePic = 2101;
+          _status[tokenId].level +=1 ;
         } else if(_status[tokenId].born == 3 ){
           findMaxIndex(tokenId) == 2 ? _status[tokenId].codePic = 2001 : _status[tokenId].codePic = 2110;
+          _status[tokenId].level +=1 ;
         }
       }
     }
